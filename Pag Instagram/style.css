@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+} 
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+
+.instagram_phone {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram_phone {
+    height: 70rem;
+}
+
+.instagram_continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-width: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {  /*Pega o primeiro container*/
+    min-height: 19rem;
+
+}
+
+.instagram_logo {
+    height: 3rem;
+}
+
+.profile_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile_photo img {
+    width: 6rem;
+
+}
+
+.instagram_login {
+    background-color: #0095f6;
+    color: #ffffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram_logout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not_account {
+    color: rgb(160, 160, 160);
+}
+
+.link_blue {
+    color: #0095f6;
+}
+
+.get_the_app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.app_download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app_download:nth-child(1) {
+    background-image: url(./image/Icon-App-Store.png);
+}
+
+.app_download:nth-child(2) {
+    background-image: url(./image/icon-playsstore.png);
+}
+
+/*@media trata o codigo tornando responsivo(Mobile e web)*/
+
+@media (max-width: 1024px){
+    .instagram_wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .body {
+        background-color: #ffffff;
+    }
+    
+    .instagram_wrapper {
+        width: 90%;
+    }
+
+    .instagram_phone {
+        display: none;
+    }
+
+    .instagram_continue {
+        width: 100%;
+    }
+}
