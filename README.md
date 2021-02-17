@@ -1,2 +1,2 @@
-# Testes/estudo
-Recriando páginas web usando Html e Css
+# Projetos
+Recriando páginas web usando Html5 - Css3 e JavaScript
